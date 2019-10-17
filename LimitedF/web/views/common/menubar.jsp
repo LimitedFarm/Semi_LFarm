@@ -69,7 +69,7 @@
 </head>
 <body>
 	<!-- header역할을 하며 로그인, 회원가입, 메뉴바를 열수 있는 버튼을 생성 -->
-	<div style="width:1200px;">
+	<div style="width:1200px; min-width:1200px;">
 		<div class="nav" align="left" >
 			<input id="menuBtn" type="button">
 		</div>
@@ -86,9 +86,9 @@
 	</div>
 	<!-- 슬라이드 형식으로 버튼 클릭시 도출되는 메뉴바 -->
 	<div id="menu">
-		
+
 	</div>
-	
+
 	<script>
 		$(function(){
 			$("#menuBtn").click(function(){
