@@ -7,6 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-	test
+	<div class="menu" onclick="goFAQ();">FAQ</div>
+	<script>
+	function goFAQ(){
+		location.href = "<%=request.getContextPath()%>/list.fo";
+	}
+	</script>
+	
 </body>
 </html>

@@ -16,7 +16,7 @@
   limitations under the License.
 --><!-- The contents of this file will be loaded for each web application -->
 
-<Context workDir = "E:\LimitedF\LimitedF\web\WEB-INF\jspwork">
+<Context workDir = "C:\Users\jeong\Desktop\team\Semi_LFarm">
 
     <!-- Default set of monitored resources. If one of these changes, the    -->
     <!-- web application will be reloaded.                                   -->
