@@ -121,7 +121,7 @@
 			if($(window).scrollTop() == $(document).height() - $(window).height()){	//스크롤바 바닥까지 내려가면 내용 추가
 				console.log(++page);
 				$(".tableArea").append("<h1>Page" + page + "</h1>");
-				$(".tableArea").append("<table align='center' width='90%' border='1px solid black' style='border-collapse:collapse'>"
+				$(".tableArea").append("<hr><table align='center' width='90%' border='1px solid black' style='border-collapse:collapse'>"
 						+ "<tr><td colspan='3' width='60%' >" + reId + "</td><td colspan='1' width='30%'>" + grade + "</td></tr>"
 						+ "<tr><td width='45%'>" + sale_Id + "</td><td colspan='3' align='right'>" + review_Date + "</td></tr>"
 						+ "<tr><td colspan='4' width='90%'>" + reContent + "<br><div align='right'><button>신고하기</button></div></td></tr>"

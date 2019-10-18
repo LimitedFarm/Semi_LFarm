@@ -127,11 +127,11 @@
 						   /* var response = JSON.parse(this.responseText);
 						  document.getElementById("print").innerHTML = response.ip;  */
 					    
-				  }
+				  }/* 
 				  xhttp.open("post", "https://openapi.open-platform.or.kr/inquiry/real_name", false);
 				  xhttp.setRequestHeader("Content/json; charset=UTF-8", "application/json; charset=UTF-8");
 				  xhttp.setRequestHeader("Authorization", "Bearer 3ceWXJKLg8IzCXEHLYL9iAyZ7iJirRAtTx4YlP48");
-				  xhttp.send();
+				  xhttp.send(); */
 				  //xhttp.open("POST", "http://ipinfo.io/json", false);
 				  //xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 				  //xhttp.send("fname=Henry&lname=Ford");
