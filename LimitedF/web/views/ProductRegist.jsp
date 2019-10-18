@@ -34,6 +34,22 @@
 						<td><input type="number" size="58" name="title" value="상품명을 입력하세요">원</td>
 					</tr>
 					<tr>
+						<td>재고량</td>
+						<td><input type="number" size="58" name="title" value="상품명을 입력하세요">원</td>
+					</tr>
+					<tr>
+						<td>원산지</td>
+						<td colsapn="3"><input type="text" size="58" name="title" value="상품명을 입력하세요"></td>
+					</tr>
+					<tr>
+						<td>생산일자</td>
+						<td colsapn="3"><input type="text" size="58" name="title" value="상품명을 입력하세요"></td>
+					</tr>
+					<tr>
+						<td>유통기한</td>
+						<td colsapn="3"><input type="text" size="58" name="title" value="상품명을 입력하세요"></td>
+					</tr>
+					<tr>
 						<td>내용</td>
 						<td colspan="3">
 							<textarea rows="15" cols="60" name="content" style="resize:none"></textarea>

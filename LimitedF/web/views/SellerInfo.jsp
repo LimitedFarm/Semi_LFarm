@@ -47,7 +47,7 @@
 	<!-- memberJoinForm.jsp에 있는 table을 복사해서 쓰자 -->
 <%-- 	<form id="updateForm" action="<%=request.getContextPath() %>/selregist.me" method="post"> --%>
 		<form id = "bChange" >
-		<table border:1px gray solid>
+		<table border="1px gray solid" style="border-collapse:collapse">
 			<tr>
 				<td width="150px" align="left">	사업자명   </td>
 				<td> <%=bName %></td>
